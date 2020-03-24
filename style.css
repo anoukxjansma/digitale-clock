@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Comfortaa', cursive;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #060a1f;
+	min-height: 100vh;
+	background-image: url("achtergrond.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom; 
+	background
+}
+article{
+	display: flex;
+	flex-direction: column;
+}
+#clock{
+	display: flex;
+	width: 180px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0;
+}
+
+h2{
+	position: relative;
+	display: block;
+	color: #fff;
+	text-align: center;
+	margin: 10px 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	font-size: 1em;
+}
+
+#time{
+	display: flex;
+	flex-direction: column;
+}
+
+div{
+	position: relative;
+	margin: 5px;
+}
+
+span{
+	position: relative;
+	display: block;
+	width: 140px;
+	height: 120px;
+	background: #191977;
+	color: #fff;
+	font-weight: 300;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+	z-index: 10;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+	padding-top: 15px;
+
+}
+
+#clock #time div span:nth-child(2){
+	height: 30px;
+	font-size: 0.7em;
+	letter-spacing: 0.2em;
+	font-weight: 500;
+	z-index: 9;
+	box-shadow: none;
+	background: #03034f;
+	text-transform: uppercase;
+	padding-bottom: 13px;
+	padding-top: 15px;
+}
+
+#clock #time div:last-child span{
+	background: #842ece;
+}
+
+#clock #time div:last-child span:nth-child(2){
+	background: #6829aa;
+}
+
+#date {
+	display: none;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+	article{
+		margin-bottom: 180px;
+	}
+
+	#clock{
+		width: 450px;
+		margin-top: 30px;
+	}
+
+	#time{
+		flex-direction: row;
+	}
+	
+	#date{
+		display: flex;
+		flex-direction: row;
+		/*background-color: #191977;*/
+		color: white;
+		justify-content: center;
+		height:30px;
+		padding-top: 2px;
+		font-weight: 700;
+		letter-spacing: 0.4em;
+		font-size: 1em;
+	}
+	
+
+}
+
+@media only screen and (min-width: 1000px) {
+	article{
+		margin-bottom: 270px;
+	}
+
+	#clock{
+		width: 450px;
+		margin-top: 80px;
+	}
+}
+
+
+
