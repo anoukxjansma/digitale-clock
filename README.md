@@ -1,5 +1,7 @@
 # digitale-klok
 
+https://anoukxjansma.github.io/digitale-klok/
+
 Deze digitale klok is optimaal voor elk scherm formaat. Bij langwerpige schermen zoals die van mobiel en tablet is de klok verticaal zichtbaar. Bij brede schermen zoals die van de laptop en pc is een horizontale klok te zien. Ook de tekst en de datum die bij de klok staan zijn aangepast naar de breedte van de klok. 
 
 Een digitale klok bestaat uit 3 elementen, deze heb ik dan in 3 losse blokjes verdeeld. Het blok van de seconden heb ik een animatie mee gegeven. Ik dacht aan de dubbele punten die bij sommige digitale klokken knipperen tussen de getallen. Dit idee heb ik verwerkt in het blok van de seconden door het blok te laten knipperen. De achtergrond kleur veranderd in een seconde waardoor het de illusie wekt dat hij knippert
