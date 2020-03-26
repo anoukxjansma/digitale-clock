@@ -1,6 +1,6 @@
 function clock(){
 	var today = new Date();
-	var uur = today.getHours();
+	var uur = 24;
 	var minuut = today.getMinutes();
 	var seconde = today.getSeconds();
 
